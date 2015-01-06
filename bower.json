@@ -1,0 +1,17 @@
+{
+  "name": "2014-12-chatterbox-server",
+  "version": "0.0.0",
+  "homepage": "https://github.com/selvan89/2014-12-chatterbox-server",
+  "authors": [
+    "Hack Reactor Students <accounts@hackreactor.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ]
+}
