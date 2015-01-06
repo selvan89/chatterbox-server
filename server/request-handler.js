@@ -32,10 +32,10 @@ exports.requestHandler = function(request, response) {
   // The outgoing status.
   var statusCode = 200;
   var headers = {};
-  if(request.method === 'GET'){
+  if(request.method === 'POST'){
     console.log("Serving request type " + request.method + " for url " + request.url);
-    console.log();
     headers["access-control-allow-origin"] = "*";
+    headers["Access-Control-Allow-Credentials"] = true;
     headers["access-control-allow-methods"] = "GET, POST, PUT, DELETE, OPTIONS";
     headers["access-control-allow-headers"] = "content-type, accept";
     headers["access-control-max-age"] = 10; // Seconds.
